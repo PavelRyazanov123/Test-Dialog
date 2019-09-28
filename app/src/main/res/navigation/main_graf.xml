@@ -10,7 +10,7 @@
         android:name="com.example.testnewdialog.HomeFragment"
         android:label="home_fragment"
         tools:layout="@layout/home_fragment" />
-    <fragment
+    <dialog
         android:id="@+id/dialogFragment"
         android:name="com.example.testnewdialog.DialogFragment"
         android:label="dialog_fragment"
