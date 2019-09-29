@@ -52,4 +52,17 @@ public class DialogFragment extends androidx.fragment.app.DialogFragment {
 
         window.setGravity(Gravity.CENTER);
     }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        getDialog().getWindow()
+                .getAttributes().windowAnimations = R.style.DialogAnimation;
+    }
 }
