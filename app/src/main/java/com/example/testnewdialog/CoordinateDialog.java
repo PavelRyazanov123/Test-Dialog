@@ -12,6 +12,6 @@ public class CoordinateDialog extends DialogFragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.test_include,container,false);
+        return inflater.inflate(R.layout.main_coordinate_layout,container,false);
     }
 }
