@@ -9,7 +9,15 @@
     <!-- подключение основного контента -->
     <include layout="@layout/main_content_layout" />
 
+    <Button
+        app:layout_dodgeInsetEdges="all"
+        android:layout_gravity="end|center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
     <!-- подключение нижнего экрана -->
-    <include layout="@layout/bottom_sheet_layout" />
+    <include
+        android:id="@+id/bottom_sheet"
+        layout="@layout/bottom_sheet_layout" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
